@@ -21,10 +21,9 @@
     : $jsonData;
 </script>
 
-<h1>ARTISTAS</h1>
-<Search bind:search />
-
 <div class="container">
+  <h1>ARTISTAS</h1>
+  <Search bind:search />
   {#each data as artist}
     <Artist {artist}>
       <div style="text-align: right">

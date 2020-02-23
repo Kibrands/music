@@ -12,6 +12,21 @@
   setContext("URL", URL);
 </script>
 
+<style>
+  :global(body) {
+    background-color: gainsboro !important;
+  }
+
+  :global(ul li a) {
+    color: white !important;
+  }
+
+  :global(ul li a:hover) {
+    text-decoration: none !important;
+    color: lightgray !important;
+  }
+</style>
+
 <Router>
   <Nav />
   <Content />
