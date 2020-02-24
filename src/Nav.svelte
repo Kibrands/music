@@ -19,7 +19,7 @@
     <span class="navbar-toggler-icon" />
   </button>
   <div class="collapse navbar-collapse" id="navbarToggler">
-    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0 py-2">
       <li class="nav-item mr-2">
         <Link to="/artists">Artistas</Link>
       </li>

@@ -27,7 +27,7 @@
   {#each data as artist}
     <Artist {artist}>
       <div style="text-align: right">
-        <Link to="/songs?id={artist._id}">Ver canciones</Link>
+        <Link to="/songs?artistId={artist._id}">Ver canciones</Link>
       </div>
     </Artist>
   {/each}
